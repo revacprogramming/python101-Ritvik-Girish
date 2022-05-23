@@ -1,18 +1,9 @@
 # Strings
-l = None
-s = None
-while True:
-    num = input("Enter a number: ")
-    if num == "done":
-        break
-    try:
-        num = int(num)
-        if l is None or l < num:
-            l = num
-        if s is None or s > num:
-            s = num
-    except:
-        print ("Invalid input")
-        continue
-print ("Maximum is",l)
-print ("Minimum is",s)
+def str():
+    text = "X-DSPAM-Confidence:    0.8475"
+    string=text.find("0.8475")
+    answer=text[string::1]
+    finalanswer=float(answer)
+    print(finalanswer)
+ 
+str()

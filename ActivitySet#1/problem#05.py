@@ -8,10 +8,10 @@ def computepay(h, r):
         o=h-40.0
         return (o*(1.5*r)+40*r)
 
-hrs = input("Enter Hours:")
-rt = input("Rate:")
-hr = float(hrs)
-rat = float(rt)
+def my_input():
+  hrs = float(input("Enter Hours:"))
+  rt = float(input("Rate:"))
+
 p=computepay(hrs,rt)
 print("Pay", p)
 

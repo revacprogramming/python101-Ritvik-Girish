@@ -1,3 +1,8 @@
 # Why Program
+def world():
+  print("Hello World")
 
-print("hello world")
+def main():
+  world()
+
+main()
