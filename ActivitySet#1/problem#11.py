@@ -1,7 +1,6 @@
 # Tuples
 l = None
 s = None
-def 
 while True:
     num = input("Enter a number: ")
     if num == "done":
