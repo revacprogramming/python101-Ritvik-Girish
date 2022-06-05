@@ -8,8 +8,8 @@ while True:
     try:
         num = int(num)
         if l is None or l < num:
-            l = num
-        if s is None or s > num:
+            l = num 
+        if s is None  or s > num:
             s = num
     except:
         print ("Invalid input")
