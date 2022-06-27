@@ -1,19 +1,12 @@
 # Lists
 
-l = None
-s = None
-while True:
-    num = input("Enter a number: ")
-    if num == "done":
-        break
-    try:
-        num = int(num)
-        if l is None or l < num:
-            l = num
-        if s is None or s > num:
-            s = num
-    except:
-        print ("Invalid input")
-        continue
-print ("Maximum is",l)
-print ("Minimum is",s)
+fname = input("Enter the file name")
+fhand = open(fname)
+mylist = list()
+for line in fhand:
+    l=line.split()
+    for i in l:
+    	if i not in mylist:
+        	mylist.append(i)
+mylist.sort()
+print(mylist)
