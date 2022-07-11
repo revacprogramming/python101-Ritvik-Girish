@@ -9,4 +9,4 @@ for line in fhand:
     	if i not in mylist:
         	mylist.append(i)
 mylist.sort()
-print(mylist)
+print(mylist)  
