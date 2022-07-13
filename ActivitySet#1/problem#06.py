@@ -14,5 +14,5 @@ while True:
     except:
         print ("Invalid input")
         continue
-print ("Maximum is",l)
+print ("Maximum is",l)  
 print ("Minimum is",s)
